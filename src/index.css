@@ -215,3 +215,28 @@ main {
   outline: 1px rgba(15, 12, 13, 0.8);
   cursor: pointer;
 }
+@media only screen and (min-width: 768px) {
+  .container {
+    align-items: flex-end;
+    width: 3000vw;
+    margin: 0 0 0 28rem;
+    max-width: var(--fixed-width);
+    background-image: url("./Pics/images.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 5%;
+    padding: 1.5rem 2rem;
+    box-shadow: var(--dark-shadow);
+  }
+  .container h3 {
+    position: absolute;
+    color: rgba(52, 58, 57, 0.575);
+    background: #fff;
+    padding-left: 0.3rem;
+    border-radius: 15%;
+    font-weight: lighter;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    text-transform: capitalize;
+    margin: -2.5rem 2rem 2rem 3.5rem;
+  }
+}
